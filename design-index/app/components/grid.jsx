@@ -26,7 +26,7 @@ export default function Grid({items, category}) {
   return (
     <>
     {filtered.length > 0 ? (
-      <div className="h-[80%] overflow-auto grid grid-cols-1 sm:grid-cols-4 gap-[15px] sm:gap-[28px] xl:gap-[35px] mt-[10px] xl:mt-[15px] 2xl:mt-[30px] w-full pb-[100px] sm:pb-[50px] pt-[5px] md:px-[5px] px-[5px] sm:px-[10px] hide-scrollbar items-start">
+      <div className="h-[80%] overflow-auto grid grid-cols-1 sm:grid-cols-4 gap-[15px] sm:gap-[28px] xl:gap-[38px] 2xl:gap-[45px] mt-[10px] xl:mt-[15px] 2xl:mt-[30px] w-full pb-[100px] sm:pb-[50px] pt-[5px] md:px-[5px] px-[5px] sm:px-[10px] hide-scrollbar items-start">
           {filtered.map((item,index) =>
               item ? (
               <>
@@ -34,7 +34,7 @@ export default function Grid({items, category}) {
                 <Link
                 key={index}
                 to={`/tool/${item.tool_name.toLowerCase()}`}
-                className="group bg-white rounded-[10px] lg:rounded-[20px] xl:rounded-[24px] justify-start items-center hidden sm:flex flex-col hover:shadow-md hover:translate-y-[-2px] hover:scale-102 transition-all duration-200 ease-in-out cursor-pointer">
+                className="group bg-white rounded-[10px] lg:rounded-[20px] xl:rounded-[24px] justify-start items-center hidden sm:flex flex-col hover:shadow-md hover:translate-y-[-2px] hover:scale-102 transition-all duration-200 ease-in-out cursor-pointer pb-[5px]">
               <img
                 alt={item.description.toLowerCase()}
                 loading='lazy'

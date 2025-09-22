@@ -88,12 +88,12 @@ const should_disable_scroll = disable_scroll.some(path =>
           
           {/* logo and title */}
           <Link to="/" className="flex flex-row items-center justify-start h-auto leading-none mt-[10px] xl:ml-[5px] py-[5px] px-[2px] w-full cursor-pointer">
-            <img alt="Collection of the best design tools on the itnernet" src={logo} className="size-[25px] md:size-[20px] lg:size-[30px] 2xl:size-[35px] ml-[10px] rotate-[5deg]"/>                    
+            <img alt="Collection of the best design tools on the itnernet" src={logo} className="size-[25px] md:size-[20px] lg:size-[30px] xl:size-[28px] 2xl:size-[33px] ml-[10px] rotate-[5deg]"/>                    
           </Link>
           
-          <div className="flex flex-row items-center justify-start w-auto h-auto ml-[10px] xl:ml-[15px]">
+          <div className="flex flex-row items-center justify-start w-auto h-auto ml-[10px] xl:ml-[15px] mt-[5px]">
             <circle className="size-[5px] lg:size-[7px] bg-[#00aa45] rounded-full ml-[7px] mb-[3px] animate-pulse"></circle>
-            <div className="text-[13px] lg:text-[20px] 2xl:text-[24px] ml-[5px] text-black font-Outfit font-semibold items-center justify-start">246 tools</div>
+            <div className="text-[13px] lg:text-[20px] 2xl:text-[22px] ml-[5px] text-black font-Outfit font-semibold items-center justify-start">246 tools</div>
           </div>
 
           {/* Navigation bar */}
@@ -108,8 +108,8 @@ const should_disable_scroll = disable_scroll.some(path =>
                 reloadDocument
                 viewTransition
               >
-                <img src={icon} alt={label} className="ml-[5px] w-size-[25px] md:size-[23px] lg:size-[35px] 2xl:size-[40px] p-[4px] md:p-[3px] xl:p-[6px] rounded-[7px]"/>
-                <span className="ml-[5px] items-start justify-center font-Outfit font-semibold text-[18px] md:text-[15px] lg:text-[25px] 2xl:text-[30px] text-[#333333]">{label}</span>
+                <img src={icon} alt={label} className="ml-[5px] w-size-[25px] md:size-[23px] lg:size-[33px] 2xl:size-[37px] p-[4px] md:p-[3px] xl:p-[6px] rounded-[7px]"/>
+                <span className="ml-[5px] items-start justify-center font-Outfit font-semibold text-[18px] md:text-[15px] lg:text-[25px] xl:text-[22px] 2xl:text-[27px] text-[#333333]">{label}</span>
                 {location.pathname === path}
               </NavLink>
             ))}
@@ -121,7 +121,7 @@ const should_disable_scroll = disable_scroll.some(path =>
             {/* submit a tool button */}
             <Link to="/submit-a-tool" className="w-full flex-grow bg-white border-[1.5px] border-[#f0f0f0] md:rounded-[10px] lg:rounded-[15px] xl:rounded-[20px] 2xl:rounded-[23px] flex flex-row items-center justify-center opacity-70 hover:opacity-100 hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out">
               <img src={send} alt="submit icon" className="size-[28px] xl:size-[35px] 2xl:size-[40px] p-[5px] mr-[2px]" />
-              <span className="md:text-[20px] lg:text-[30px] 2xl:text-[35px] font-Outfit font-semibold">submit</span>
+              <span className="md:text-[18px] lg:text-[30px] xl:text-[28px] 2xl:text-[32px] font-Outfit font-semibold">submit</span>
             </Link>
           </div>
 
