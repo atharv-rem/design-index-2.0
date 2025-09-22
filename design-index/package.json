@@ -9,11 +9,16 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
+    "@forge42/seo-tools": "^1.4.5",
     "@react-router/node": "^7.7.1",
+    "@supabase/supabase-js": "^2.57.4",
     "isbot": "^5.1.27",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router": "^7.7.1"
+    "react-router": "^7.7.1",
+    "wink-eng-lite-web-model": "^1.8.1",
+    "wink-nlp": "^2.4.0",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
     "@react-router/dev": "^7.7.1",

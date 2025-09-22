@@ -5,5 +5,11 @@
 /.react-router/
 /build/
 
+# Ignore environment variable files
+.env
+
 # Vercel
 /.vercel/
+
+
+

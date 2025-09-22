@@ -11,26 +11,53 @@ import type { Route } from "./+types/root";
 import "./app.css";
 
 export const links: Route.LinksFunction = () => [
-  { rel: "preconnect", href: "https://fonts.googleapis.com" },
-  {
-    rel: "preconnect",
-    href: "https://fonts.gstatic.com",
-    crossOrigin: "anonymous",
-  },
-  {
-    rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
-  },
+  { rel: "preload", href: "/fonts/CalSans.woff2", as: "font", type: "font/woff2", crossOrigin: "anonymous" },
+  { rel: "preload", href: "/fonts/Fustat.woff2", as: "font", type: "font/woff2", crossOrigin: "anonymous" },
+  { rel: "preload", href: "/fonts/Outfit.woff2", as: "font", type: "font/woff2", crossOrigin: "anonymous" },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
+        <script
+          src="https://cdn.databuddy.cc/databuddy.js"
+          data-client-id={import.meta.env.VITE_DATABUDDY_CLIENT_ID}
+          data-track-sessions="false"
+          data-track-outgoing-links="true"
+          data-enable-batching="true"
+          crossOrigin="anonymous"
+          async
+        ></script>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+         <link rel="icon" href="/logo_light.svg" type="image/svg+xml" media="(prefers-color-scheme: light)" />
+        <link rel="icon" href="/logo_dark.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)" />
+        <style>{`
+          @font-face {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 400 900;
+            font-display: swap;
+            src: url('/fonts/Outfit.woff2') format('woff2');
+          }
+          @font-face {
+            font-family: 'Fustat';
+            font-style: normal;
+            font-weight: 200 800;
+            font-display: swap;
+            src: url('/fonts/Fustat.woff2') format('woff2');
+          }
+          @font-face {
+            font-family: 'Cal Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url('/fonts/CalSans.woff2') format('woff2');
+          }
+        `}</style>
       </head>
       <body>
         {children}
