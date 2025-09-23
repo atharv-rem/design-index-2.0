@@ -1,12 +1,12 @@
 export const meta = () => [
-  { title: "Design Index" },
+  { title: "Design Index - Collection of the best design resources on the internet" },
   { name: "description", content: "Collection of the best design resources on the internet" },
-  { property: "og:title", content: "Design Index" },
+  { property: "og:title", content: "Design Index - Collection of the best design resources on the internet" },
   { property: "og:description", content: "Collection of the best design resources on the internet" },
   { property: "og:type", content: "website" },
   { property: "og:image", content: "https://designindex.xyz/preview.avif" },
   { name: "twitter:card", content: "summary_large_image" },
-  { name: "twitter:title", content: "Design Index" },
+  { name: "twitter:title", content: "Design Index - Collection of the best design resources on the internet" },
   { name: "twitter:description", content: "Collection of the best design resources on the internet" },
   { name: "twitter:image", content: "https://designindex.xyz/twitter_preview.avif" },
 ];
