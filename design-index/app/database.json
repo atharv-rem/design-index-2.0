@@ -2116,7 +2116,237 @@
     "pricing": "paid",
     "website": "https://mockup-online.wannathis.one/",
     "description": "Web-based mockup generator",
-    "extended_description": "rowser-based tool with premium-quality mockups (phones, laptops, desktops, print) in realistic scenes",
+    "extended_description": "browser-based tool with premium-quality mockups (phones, laptops, desktops, print) in realistic scenes",
     "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/mockup%20online.avif"
+  },
+  {
+    "primary_key": 213,
+    "category": "font",
+    "tool_name": "Future Fonts",
+    "pricing": "paid",
+    "website": "https://www.futurefonts.com/fonts",
+    "description": "type designers selling fonts in progress",
+    "extended_description": "showcasing fonts that are currently being developed by independent type designers.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/future%20fonts.avif"
+  },
+  {
+    "primary_key": 214,
+    "category": "font",
+    "tool_name": "Ohno Type",
+    "pricing": "paid",
+    "website": "https://ohnotype.co",
+    "description": "Playful type foundry offering unique fonts",
+    "extended_description": "retail and custom typefaces with the intent of making graphic design fun for everyone",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/ohno%20type.avif"
+  },
+  {
+    "primary_key": 215,
+    "category": "mockup",
+    "tool_name": "Pixel Buddha",
+    "pricing": "free,paid",
+    "website": "https://pixelbuddha.net/mockups",
+    "description": " free & premium resources for the professional community",
+    "extended_description": "mockups,fonts,effects,textures,graphics and design resources for professionals",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/pixelbuddha.avif"
+  },
+  {
+    "primary_key": 216,
+    "category": "font",
+    "tool_name": "Pixel Buddha",
+    "pricing": "free,paid",
+    "website": "https://pixelbuddha.net/fonts",
+    "description": " free & premium resources for the professional community",
+    "extended_description": "mockups,fonts,effects,textures,graphics and design resources for professionals",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/pixelbuddha.avif"
+  },
+  {
+    "primary_key": 217,
+    "category": "font",
+    "tool_name": "Studio2am",
+    "pricing": "paid",
+    "website": "https://studio2am.co/collections/fonts",
+    "description": "Real tools from real designers.",
+    "extended_description": "We cut through the noise to bring you high-quality fonts, mockups, graphics, textures, and more — so you can create faster with the best tools at your fingertips. ",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/studio2%20am.avif"
+  },
+  {
+    "primary_key": 218,
+    "category": "mockup",
+    "tool_name": "Studio2am",
+    "pricing": "paid",
+    "website": "https://studio2am.co/collections/mockups",
+    "description": "Real tools from real designers.",
+    "extended_description": "We cut through the noise to bring you high-quality fonts, mockups, graphics, textures, and more — so you can create faster with the best tools at your fingertips. ",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/studio2%20am.avif"
+  },
+  {
+    "primary_key": 219,
+    "category": "font",
+    "tool_name": "PowerType",
+    "pricing": "paid",
+    "website": "https://power-type.com/",
+    "description": "",
+    "extended_description": "crafting top-quality fonts that not only possess visual appeal but also offer versatility and functionality.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/power%20type.avif"
+  },
+  {
+    "primary_key": 220,
+    "category": "font",
+    "tool_name": "Good Type",
+    "pricing": "paid",
+    "website": "https://goodtypefoundry.com/",
+    "description": "",
+    "extended_description": "Good Type is a type foundry that specializes in creating high-quality, unique typefaces for designers and creatives.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/good%20type.avif"
+  },
+  {
+    "primary_key": 221,
+    "category": "mockup",
+    "tool_name": "Supply",
+    "pricing": "paid",
+    "website": "https://supply.family/product-category/mockups/",
+    "description": "",
+    "extended_description": "Supply is a design resource platform that offers a wide range of high-quality mockups, templates, and design assets for creatives.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/supply.avif"
+  },
+  {
+    "primary_key": 222,
+    "category": "font",
+    "tool_name": "Supply",
+    "pricing": "paid",
+    "website": "https://supply.family/product-category/fonts/",
+    "description": "",
+    "extended_description": "Supply is a design resource platform that offers a wide range of high-quality fonts, templates, and design assets for creatives.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/supply.avif"
+  },
+  {
+    "primary_key": 223,
+    "category": "mockup",
+    "tool_name": "Mockuplab",
+    "pricing": "paid",
+    "website": "https://mockuplab.shop/",
+    "description": "",
+    "extended_description": "Supply is a design resource platform that offers a wide range of high-quality fonts, templates, and design assets for creatives.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/mockup%20lab.avif"
+  },
+  {
+    "primary_key": 224,
+    "category": "colour",
+    "tool_name": "Super Color Palette",
+    "pricing": "paid",
+    "website": "https://supercolorpalette.com/",
+    "description": "",
+    "extended_description": "Supply is a design resource platform that offers a wide range of high-quality fonts, templates, and design assets for creatives.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/supercolorpalettte.avif"
+  },
+  {
+    "primary_key": 225,
+    "category": "mockup",
+    "tool_name": "Mocku",
+    "pricing": "free,paid",
+    "website": "https://www.hellomocku.com/",
+    "description": "",
+    "extended_description": "Supply is a design resource platform that offers a wide range of high-quality fonts, templates, and design assets for creatives.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/mocku.avif"
+  },
+  {
+    "primary_key": 226,
+    "category": "mockup",
+    "tool_name": "Scene number mockup",
+    "pricing": "paid",
+    "website": "https://scenenumbermockup.com/",
+    "description": "AI-powered color scheme generator",
+    "extended_description": "AI-powered color scheme generator that creates palettes based on deep learning from popular art, movies, and design.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/colormind.avif"
+  },
+  {
+    "primary_key": 227,
+    "category": "mockup",
+    "tool_name": "Showcase",
+    "pricing": "paid",
+    "website": "https://www.showcasebh.com/",
+    "description": "Color palette generator",
+    "extended_description": "Color palette generator that creates harmonious color schemes based on a single input color.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/showcase.avif"
+  },
+  {
+    "primary_key": 228,
+    "category": "mockup",
+    "tool_name": "Colortime",
+    "pricing": "free,paid",
+    "website": "https://colortime.shop/?v=85d1a9c488d7",
+    "description": "Color scheme generator",
+    "extended_description": "Color scheme generator that creates harmonious color palettes based on user-defined parameters.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/coolors.avif"
+  },
+  {
+    "primary_key": 229,
+    "category": "mockup",
+    "tool_name": "Akoya mockups",
+    "pricing": "free",
+    "website": "https://akoyamockups.com/",
+    "description": "Color palette generator",
+    "extended_description": "Color palette generator that creates harmonious color schemes based on a single input color.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/akoya.avif"
+  },
+  {
+    "primary_key": 230,
+    "category": "mockup",
+    "tool_name": "Orbyt studio",
+    "pricing": "paid",
+    "website": "https://orbyt.studio/",
+    "description": "Free mockup generator",
+    "extended_description": "Free mockup generator that allows users to create professional mockups for various products and designs.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/orbyt.avif"
+  },
+  {
+    "primary_key": 231,
+    "category": "mockup",
+    "tool_name": "Darkroom",
+    "pricing": "paid",
+    "website": "https://www.darkroom.au/",
+    "description": "Free mockup resources",
+    "extended_description": "Free mockup resources for designers, including PSD files for various products and designs.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/darkroom.avif"
+  },
+  {
+    "primary_key": 232,
+    "category": "mockup",
+    "tool_name": "Ply",
+    "pricing": "paid",
+    "website": "https://www.ply.supply/",
+    "description": "Free mockup resources",
+    "extended_description": "Free mockup resources for designers, including PSD files for various products and designs.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/ply.avif"
+  },
+  {
+    "primary_key": 233,
+    "category": "mockup",
+    "tool_name": "layers",
+    "pricing": "paid",
+    "website": "https://layers.design/",
+    "description": "Free mockup resources",
+    "extended_description": "Free mockup resources for designers, including PSD files for various products and designs.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/layers.avif"
+  },
+  {
+    "primary_key": 234,
+    "category": "font",
+    "tool_name": "Superior Type",
+    "pricing": "paid",
+    "website": "https://www.superiortype.com/",
+    "description": "Free mockup resources",
+    "extended_description": "Free mockup resources for designers, including PSD files for various products and designs.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/superior%20type.avif"
+  },
+  {
+    "primary_key": 235,
+    "category": "colour",
+    "tool_name": "Photogradient",
+    "pricing": "free",
+    "website": "https://photogradient.com/",
+    "description": "Free mockup resources",
+    "extended_description": "Free mockup resources for designers, including PSD files for various products and designs.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/photogradient-1.avif"
   }
 ]

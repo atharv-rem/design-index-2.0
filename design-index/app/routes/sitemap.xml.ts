@@ -7,8 +7,6 @@ export const loader = async ({ request }: Route.LoaderArgs) => {
   const sitemap = await generateRemixSitemap({
     domain: origin,
     ignore: ["/api/chat", "/legal-notice","/privacy-policy"],
-    // @ts-expect-error Type mismatch, maybe related to a stricter type mentioned in release notes for v.7.0.0
-    // https://github.com/forge-42/seo-tools/issues/8
     routes,
   });
 

@@ -93,7 +93,7 @@ const should_disable_scroll = disable_scroll.some(path =>
           
           <div className="flex flex-row items-center justify-start w-auto h-auto ml-[10px] xl:ml-[15px] mt-[5px]">
             <circle className="size-[5px] lg:size-[7px] bg-[#00aa45] rounded-full ml-[7px] mb-[3px] animate-pulse"></circle>
-            <div className="text-[13px] lg:text-[20px] 2xl:text-[22px] ml-[5px] text-black font-Outfit font-semibold items-center justify-start">246 tools</div>
+            <div className="text-[13px] lg:text-[20px] 2xl:text-[22px] ml-[5px] text-black font-Outfit font-semibold items-center justify-start">235 tools</div>
           </div>
 
           {/* Navigation bar */}
