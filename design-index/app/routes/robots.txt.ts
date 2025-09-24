@@ -18,7 +18,7 @@ export async function loader({ request }: Route.LoaderArgs) {
 
   return new Response(robotsTxt, {
     headers: {
-      "Content-Type": "text/plain",
+      "Content-Type": "application/xml",
     },
   });
 }
