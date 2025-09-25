@@ -17,8 +17,6 @@ export default [
     route("/search","routes/search_suggestions.jsx"),
     route("/search_results","routes/search_results.jsx"),
     route("/feedback","routes/feedback.jsx"),
-    route("robots.txt","routes/robots.txt.ts"),
-    route("sitemap.xml", "routes/sitemap.xml.ts"),
 
     route("/colours", "routes/colours/layout.jsx", [
       index("routes/colours/index.jsx"),
