@@ -132,10 +132,9 @@ const should_disable_scroll = disable_scroll.some(path =>
           <div className="md:hidden fixed top-0 left-0 w-[80%] sm:w-[50%] h-screen bg-white z-50 shadow-lg justify-center items-end">
 
             <div className="flex flex-col w-full h-auto p-[10px]">
-              <div className="flex flex-row items-center justify-between mb-4 w-auto h-auto">
+              <div className="flex flex-row items-center justify-between w-auto h-auto">
                 <Link prefetch="viewport" to="/" onClick={() => setSidebar(false)} className="flex flex-row items-center justify-start w-auto h-auto mb-[5px] p-[10px]">
                   <img src={logo} alt="design index logo" className="w-[30px] h-[30px] rotate-[5deg]" />
-                  <span className="text-[25px] text-black font-Fustat font-semibold ml-[5px] items-center justify-start">design index.</span>
                 </Link>
                 <img onClick={() => setSidebar(false)} src={sidebar_close_icon} alt="close sidebar" className="w-[36px] h-[36px] p-[5px]"/>
               </div>
