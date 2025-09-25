@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-news/0.9 http://www.google.com/schemas/sitemap-news/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-video/1.1 http://www.google.com/schemas/sitemap-video/1.1/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap.xsd http://www.w3.org/TR/xhtml11/xhtml11_schema.html http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/TR/xhtml11/xhtml11_schema.html" ><url><loc>https://www.designindex.xyz/</loc></url><url><loc>https://www.designindex.xyz/</loc></url><url><loc>https://www.designindex.xyz/tool/:tools</loc></url><url><loc>https://www.designindex.xyz/about</loc></url><url><loc>https://www.designindex.xyz/terms-and-conditions</loc></url><url><loc>https://www.designindex.xyz/submit-a-tool</loc></url><url><loc>https://www.designindex.xyz/search</loc></url><url><loc>https://www.designindex.xyz/search_results</loc></url><url><loc>https://www.designindex.xyz/feedback</loc></url><url><loc>https://www.designindex.xyz/colours</loc></url><url><loc>https://www.designindex.xyz/colours</loc></url><url><loc>https://www.designindex.xyz/colours//colours/:pricing</loc></url><url><loc>https://www.designindex.xyz/mockups</loc></url><url><loc>https://www.designindex.xyz/mockups</loc></url><url><loc>https://www.designindex.xyz/mockups//mockups/:pricing</loc></url><url><loc>https://www.designindex.xyz/illustrations</loc></url><url><loc>https://www.designindex.xyz/illustrations</loc></url><url><loc>https://www.designindex.xyz/illustrations//illustrations/:pricing</loc></url><url><loc>https://www.designindex.xyz/design-inspo</loc></url><url><loc>https://www.designindex.xyz/design-inspo</loc></url><url><loc>https://www.designindex.xyz/design-inspo//design-inspo/:pricing</loc></url><url><loc>https://www.designindex.xyz/fonts</loc></url><url><loc>https://www.designindex.xyz/fonts</loc></url><url><loc>https://www.designindex.xyz/fonts//fonts/:pricing</loc></url><url><loc>https://www.designindex.xyz/icons</loc></url><url><loc>https://www.designindex.xyz/icons</loc></url><url><loc>https://www.designindex.xyz/icons//icons/:pricing</loc></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://www.designindex.xyz/</loc>
+  </url>
+  <url>
+    <loc>https://www.designindex.xyz/about</loc>
+  </url>
+  <url>
+    <loc>https://www.designindex.xyz/privacy-policy</loc>
+  </url>
+  <url>
+    <loc>https://www.designindex.xyz/terms-and-conditions</loc>
+  </url>
+  <url>
+    <loc>https://www.designindex.xyz/submit-a-tool</loc>
+  </url>
+  <url>
+    <loc>https://www.designindex.xyz/search</loc>
+  </url>
+  <url>
+    <loc>https://www.designindex.xyz/search_results</loc>
+  </url>
+  <url>
+    <loc>https://www.designindex.xyz/feedback</loc>
+  </url>
+  <url>
+    <loc>https://www.designindex.xyz/colours</loc>
+  </url>
+  <url>
+    <loc>https://www.designindex.xyz/mockups</loc>
+  </url>
+  <url>
+    <loc>https://www.designindex.xyz/illustrations</loc>
+  </url>
+  <url>
+    <loc>https://www.designindex.xyz/design-inspo</loc>
+  </url>
+  <url>
+    <loc>https://www.designindex.xyz/fonts</loc>
+  </url>
+  <url>
+    <loc>https://www.designindex.xyz/icons</loc>
+  </url>
+
+</urlset>
