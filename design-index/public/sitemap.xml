@@ -1,47 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://www.designindex.xyz/</loc>
-  </url>
-  <url>
-    <loc>https://www.designindex.xyz/about</loc>
-  </url>
-  <url>
-    <loc>https://www.designindex.xyz/privacy-policy</loc>
-  </url>
-  <url>
-    <loc>https://www.designindex.xyz/terms-and-conditions</loc>
-  </url>
-  <url>
-    <loc>https://www.designindex.xyz/submit-a-tool</loc>
-  </url>
-  <url>
-    <loc>https://www.designindex.xyz/search</loc>
-  </url>
-  <url>
-    <loc>https://www.designindex.xyz/search_results</loc>
-  </url>
-  <url>
-    <loc>https://www.designindex.xyz/feedback</loc>
-  </url>
-  <url>
-    <loc>https://www.designindex.xyz/colours</loc>
-  </url>
-  <url>
-    <loc>https://www.designindex.xyz/mockups</loc>
-  </url>
-  <url>
-    <loc>https://www.designindex.xyz/illustrations</loc>
-  </url>
-  <url>
-    <loc>https://www.designindex.xyz/design-inspo</loc>
-  </url>
-  <url>
-    <loc>https://www.designindex.xyz/fonts</loc>
-  </url>
-  <url>
-    <loc>https://www.designindex.xyz/icons</loc>
-  </url>
-
-</urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://designindex.xyz/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://designindex.xyz/colours</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://designindex.xyz/mockups</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://designindex.xyz/fonts</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://designindex.xyz/design-inspo</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://designindex.xyz/icons</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://designindex.xyz/illustrations</loc><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+<url><loc>https://designindex.xyz/submit-a-Tool</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://designindex.xyz/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+<url><loc>https://designindex.xyz/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+<url><loc>https://designindex.xyz/about</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+<url><loc>https://designindex.xyz/feedback</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+<url><loc>https://designindex.xyz/search-results</loc><changefreq>daily</changefreq><priority>0.6</priority></url></urlset>
