@@ -12,7 +12,7 @@ export default [
     route("/tool/:tools", "routes/tool.$tools.jsx"),
     route("/about", "routes/about.jsx"),
     route("/privacy-policy", "routes/privacy-policy.jsx"),
-    route("/terms-and-conditions", "routes/terms.jsx"),
+    route("/terms", "routes/terms.jsx"),
     route("/submit-a-tool", "routes/submit-a-tool.jsx"),
     route("/search","routes/search_suggestions.jsx"),
     route("/search_results","routes/search_results.jsx"),

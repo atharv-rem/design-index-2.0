@@ -32,7 +32,7 @@ function Colours() {
   return (
     <>
           {/* title section */}
-          <div className="md:mt-0 flex flex-col items-start justify-center w-full sm:w-auto p-[5px] ml-[5px] md:ml-0">
+          <div className="flex flex-col items-start justify-center w-full sm:w-auto p-[5px] ml-[5px] md:ml-0">
             <span className="font-semibold text-[32px] md:text-[28px] lg:text-[30px] xl:text-[45px] 2xl:text-[55px] font-Outfit">colours</span>
             <p className=" hidden sm:block text-[15px] md:text-[15px] lg:text-[17px] xl:text-[20px] 2xl:text-[25px] font-Outfit font-medium mr-[12px] leading-4 md:leading-4 lg:leading-5 xl:leading-6 2xl:leading-7 text-justify">
               A curated collection of colour palettes, hues, gradients and backgrounds to inspire and streamline your design process.

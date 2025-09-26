@@ -10,9 +10,9 @@ import sidebar_close_icon from "./assets/sidebar close.png"
 import india from './assets/Indian flag.png';
 import heart from './assets/love.png';
 import twitter from './assets/XLogo.png'
-import insta from './assets/InstagramLogo.png';
 import linkedin from "./assets/LinkedinLogo.avif"
 import logo from "./assets/logo.avif"
+import threads from "./assets/threads-logo.svg"
 
 import SearchBar from "./components/search bar.jsx";
 import {Link,useLocation, Outlet, NavLink} from "react-router";
@@ -118,7 +118,9 @@ const should_disable_scroll = disable_scroll.some(path =>
 
           {/* Bottom section with illustration and submit button */}
           <div className="items-start justify-start absolute bottom-[20px] left-[20px] md:bottom-[10px] md:left-[5px] md:right-[5px] w-auto flex flex-col md:mx-[5px]">
-            {/* submit a tool button */}
+            <Link to="/feedback" className="w-full flex-grow bg-white border-[1.5px] border-[#f0f0f0] md:rounded-[10px] lg:rounded-[15px] xl:rounded-[20px] 2xl:rounded-[23px] flex flex-row items-center justify-center opacity-70 hover:opacity-100 hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out mb-[10px]">
+              <span className="md:text-[18px] lg:text-[23px] xl:text-[28px] 2xl:text-[32px] font-Outfit font-semibold">feedback</span>
+            </Link>
             <Link to="/submit-a-tool" className="w-full flex-grow bg-white border-[1.5px] border-[#f0f0f0] md:rounded-[10px] lg:rounded-[15px] xl:rounded-[20px] 2xl:rounded-[23px] flex flex-row items-center justify-center opacity-70 hover:opacity-100 hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out">
               <img src={send} alt="submit icon" className="size-[28px] xl:size-[35px] 2xl:size-[40px] p-[5px] mr-[2px]" />
               <span className="md:text-[18px] lg:text-[23px] xl:text-[28px] 2xl:text-[32px] font-Outfit font-semibold">submit</span>
@@ -173,7 +175,7 @@ const should_disable_scroll = disable_scroll.some(path =>
                 </div>
                 <div className='flex flex-row items-start justify-center mt-[5px]'>
                   <img src={twitter} loading="lazy" alt="X logo" className="w-[30px] h-[30px] md:w-[30px] md:h-[30px] lg:w-[32px] lg:h-[32px] xl:w-[35px] xl:h-[35px] 2xl:w-[40px] 2xl:h-[40px] mr-[5px] p-[5px]  shadow-sm border-[0.5px] border-[#e2e2e2] rounded-[8px]" onClick={() => window.open("https://x.com/atharv_rem", "_blank")} />
-                  <img src={insta} loading="lazy" alt="Instagram logo" className="w-[30px] h-[30px] md:w-[30px] md:h-[30px] lg:w-[32px] lg:h-[32px] xl:w-[35px] xl:h-[35px] 2xl:w-[40px] 2xl:h-[40px] mr-[5px] p-[5px]  shadow-sm border-[0.5px] border-[#e2e2e2] rounded-[8px]" onClick={() => window.open("https://instagram.com/atharv_remeshan", "_blank")} />
+                  <img src={threads} loading="lazy" alt="Threads logo" className="w-[30px] h-[30px] md:w-[30px] md:h-[30px] lg:w-[32px] lg:h-[32px] xl:w-[35px] xl:h-[35px] 2xl:w-[40px] 2xl:h-[40px] mr-[5px] p-[5px]  shadow-sm border-[0.5px] border-[#e2e2e2] rounded-[8px]" onClick={() => window.open("https://www.threads.com/@atharv_remeshan", "_blank")} />
                   <img src={linkedin} loading="lazy" alt="LinkedIn logo" className="w-[30px] h-[30px] md:w-[30px] md:h-[30px] lg:w-[32px] lg:h-[32px] xl:w-[35px] xl:h-[35px] 2xl:w-[40px] 2xl:h-[40px] p-[5px]  shadow-sm border-[0.5px] border-[#e2e2e2] rounded-[8px]" onClick={() => window.open("https://www.linkedin.com/in/atharv-rem", "_blank")} />
                 </div>
             </div>
@@ -187,10 +189,10 @@ const should_disable_scroll = disable_scroll.some(path =>
 
         {/* right content area*/}
         <div className="flex-col items-center justify-center w-full md:w-[87%] p-[5px] md:p-[5px] md:px-[20px] bg-white">
-          <div className="flex-row w-full hidden md:flex">
+          <div className="flex-row w-full hidden md:flex items-center pt-[5px]">
             <SearchBar />
-            <div className="flex flex-row items-center justify-start w-auto h-auto font-Outfit text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] px-[20px]">blog</div>
-            <div className="flex flex-row items-center justify-start w-auto h-auto font-Outfit text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] px-[20px]">about</div>
+            <Link to='/terms' className="flex flex-row items-center justify-start w-auto font-Outfit font-semibold border-[1px] border-[#f0f0f0] drop-shadow-md drop-shadow-neutral-100 rounded-[10px] xl:rounded-[14px] 2xl:rounded-[16px] text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] px-[20px] ml-[10px] h-[36px] md:h-[30px] lg:h-[35px] xl:h-[40px] 2xl:h-[45px] opacity-70 hover:opacity-100 hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out">terms</Link>
+            <Link to='/about' className="flex flex-row items-center justify-start w-auto font-Outfit font-semibold border-[1px] border-[#f0f0f0] drop-shadow-md drop-shadow-neutral-100 rounded-[10px] xl:rounded-[14px] 2xl:rounded-[16px] text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] px-[20px] ml-[10px] h-[36px] md:h-[30px] lg:h-[35px] xl:h-[40px] 2xl:h-[45px] opacity-70 hover:opacity-100 hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out">about</Link>
           </div>
           
           {/* Mobile header */}

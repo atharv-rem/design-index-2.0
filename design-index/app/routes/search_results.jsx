@@ -6,7 +6,7 @@ import {Link} from "react-router";
 function Cards(items){
     return(
         <>
-        <div className="grid grid-cols-1 sm:hidden gap-[15px] items-start justify-center w-auto mt-[10px] ml-[5px] mr-[5px]">
+        <div className="grid grid-cols-1 sm:hidden gap-[15px] items-start justify-center w-auto ml-[5px] mt-[10px] mr-[5px]">
             {items.map((item, index) => (
                 <Link
                     key={index}
@@ -33,7 +33,7 @@ function Cards(items){
                 </Link>
             ))}
         </div>
-        <div className="pb-[50px] hidden overflow-auto sm:grid sm:grid-cols-4 gap-[28px] xl:gap-[20px] mt-[10px] w-full pt-[5px] px-[5px] hide-scrollbar items-start">
+        <div className="pb-[50px] hidden overflow-auto sm:grid sm:grid-cols-4 sm:gap-[28px] xl:gap-[38px] 2xl:gap-[45px] mt-[10px] w-full pt-[5px] px-[5px] hide-scrollbar items-start">
             {items.map((item, index) => (
                 <Link
                     key={index}
