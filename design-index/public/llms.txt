@@ -1,0 +1,17 @@
+# Design Index
+Collection of the best design resources on the internet. It is the only design directory that has a natural language search.
+
+## Colours
+-[Colours](https://www.designindex.xyz/colours):A curated collection of colour palettes, hues, gradients and backgrounds to inspire and streamline your design process. From bold primaries to subtle pastels, this section offers a versatile range of colour resources to help you build consistent, visually appealing, and emotionally resonant design systems.
+## Mockups
+-[Mockups](https://www.designindex.xyz/mockups):A curated library of high-quality device and product mockups to showcase your designs in real-world contexts. From phones and laptops to packaging and apparel, this section offers versatile templates to help you present your work with professionalism, clarity, and impact.
+## Fonts
+-[Fonts](https://www.designindex.xyz/fonts):A handpicked selection of font libraries to bring personality and clarity to your typography. Whether you're looking for elegant serifs, modern sans-serifs, or expressive display fonts, this section helps you find the perfect typeface to elevate your design language and reinforce brand identity.
+## Inspirations
+-[Inspirations](https://www.designindex.xyz/design-inspo):Thoughtfully assembled gallery of visual inspiration across web, mobile, print, and branding. Discover cutting-edge layouts, creative UI patterns, and standout visuals to spark ideas, refine your style, and fuel your creative momentum.
+## Icons
+-[Icons](https://www.designindex.xyz/icons):A versatile collection of icon libraries covering diverse styles, categories, and use cases. Whether you need minimal line icons, bold glyphs, playful or animated icons, this section helps you communicate ideas clearly and enhance user interaction with visual clarity.
+## Illustrations
+-[Illustrations](https://www.designindex.xyz/illustrations):A rich archive of illustrations ranging from minimal flat styles to detailed artworks. Use these visual assets to add depth, storytelling, and emotional warmth to your projects, making them more engaging, memorable, and human-centered.
+## About
+-[About](https://www.designindex.xyz/about):why i built design index
