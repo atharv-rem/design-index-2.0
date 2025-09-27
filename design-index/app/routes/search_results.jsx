@@ -33,7 +33,7 @@ function Cards(items){
                 </Link>
             ))}
         </div>
-        <div className="pb-[50px] hidden overflow-auto sm:grid sm:grid-cols-4 sm:gap-[28px] xl:gap-[38px] 2xl:gap-[45px] mt-[10px] w-full pt-[5px] px-[5px] hide-scrollbar items-start">
+        <div className="sm:pb-[100px] md:pb-[50px] hidden overflow-auto sm:grid sm:grid-cols-4 sm:gap-[28px] xl:gap-[38px] 2xl:gap-[45px] mt-[10px] w-full pt-[5px] px-[15px] md:px-[5px] hide-scrollbar items-start">
             {items.map((item, index) => (
                 <Link
                     key={index}
@@ -91,7 +91,7 @@ export default function Searchresults() {
             if (results.every(r => r.matchedKeywords <= 1)) {
                 return(
                     <>
-                        <div className="flex flex-col items-start justify-center h-auto md:mt-[10px] lg:mt-[50px] xl:mt-[50px] 2xl:mt-[65px] font-Outfit text-black font-semibold text-[15px] sm:text-[17px] md:text-[15px] lg:text-[20px] xl:text-[22px] 2xl:text-[26px] ml-[10px]">relevant results</div>
+                        <div className="flex flex-col items-start justify-center h-auto mt-[10px] font-Outfit text-black font-semibold text-[15px] sm:text-[17px] md:text-[15px] lg:text-[20px] xl:text-[22px] 2xl:text-[26px] ml-[10px]">relevant results</div>
                         <div className="flex flex-col items-start justify-center h-auto ml-[10px] font-Outfit text-[#898989] font-semibold text-[15px] sm:text-[17px] md:text-[15px] lg:text-[17px] xl:text-[20px] 2xl:text-[24px] mb-[10px]">{similar_results_count} tools</div>
                         {Cards(data.filter(item => results.find(r => r.id === item.primary_key && r.matchedKeywords === 1)))}
                     </>

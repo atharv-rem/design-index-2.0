@@ -1,5 +1,5 @@
 import data from "../database.json";
-import { useParams } from "react-router";
+import { useParams,Link} from "react-router";
 import left_arrow from "../assets/ArrowLeft.png";
 import link_arrow from "../assets/link.svg";
 import share_icon from "../assets/share.svg";
@@ -36,30 +36,36 @@ export const meta = ({ params }) => {
 
 export default function ToolPage() {
   const { tools } = useParams();
-
   const selectedItem = data.find(
     (item) => item.tool_name.toLowerCase() === tools?.toLowerCase()
   );
-
   const [copied, setCopied] = useState(false);
-
   const handleCopyLink = () => {
     navigator.clipboard.writeText(window.location.href);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
-
   if (!selectedItem) {
     return <div>Tool not found</div>;
+  }
+  let tool = data.find((item) => item.tool_name.toLowerCase() === tools?.toLowerCase());
+  let category = tool ? tool.category : null;
+
+  if (category === "design_inspiration") {
+    category = "design-inspo";
+  } else if (!category) {
+    category = null;
+  } else {
+    category = category + "s";
   }
 
   return (
     <div className='flex flex-col items-start justify-center h-auto mt-[5px] p-[5px] w-auto'>
       {/* Back button */}
-      <div onClick={() => open_new_tool_window(null)} className='flex flex-row items-center justify-start cursor-pointer opacity-70 hover:opacity-100 hover:translate-x-[-2px] transition-all duration-200 ease-in-out'>
+      <Link to={`/${category}`} className='flex flex-row items-center justify-start cursor-pointer opacity-70 hover:opacity-100 hover:translate-x-[-2px] transition-all duration-200 ease-in-out'>
         <img src={left_arrow} alt='back arrow' className='w-[20px] h-[20px] md:w-[20px] md:h-[20px] lg:w-[25px] lg:h-[25px] xl:w-[30px] xl:h-[30px] 2xl:w-[35px] 2xl:h-[35px]' />
         <span className='font-Outfit text-[18px] md:text-[18px] lg:text-[20px] xl:text-[25px] 2xl:text-[30px] font-medium text-[black] ml-[5px]'>back</span>
-      </div>
+      </Link>
 
       <div className='flex flex-col sm:flex-row items-start justify-start mt-[10px]'>
         <img src={selectedItem.og_image_link} alt="og image" className=' h-auto w-full sm:h-[180px] sm:w-[320px] md:h-[180px] md:w-[340px] lg:h-[200px] lg:w-[360px] xl:h-[240px] xl:w-[440px] 2xl:h-[280px] 2xl:w-[520px] rounded-[20px] md:rounded-[20px] lg:rounded-[25px] xl:rounded-[30px] 2xl:rounded-[40px] border-white border-[5px] shadow-lg'/>
