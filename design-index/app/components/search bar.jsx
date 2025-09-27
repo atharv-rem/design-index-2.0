@@ -90,7 +90,7 @@ function SearchBar() {
 
   return (
     <>
-      <div className="h-[36px] md:h-[30px] lg:h-[35px] xl:h-[40px] 2xl:h-[45px] flex flex-row items-center justify-start flex-grow flex-shrink w-[70%] sm:w-[80%] bg-white border-[1px] border-[#f0f0f0] drop-shadow-sm drop-shadow-neutral-100 rounded-[10px] xl:rounded-[14px] 2xl:rounded-[16px] z-5 p-[5px]">
+      <div className="h-[36px] md:h-[30px] lg:h-[35px] xl:h-[40px] 2xl:h-[45px] flex flex-row items-center justify-start w-full bg-white border-[1px] border-[#f0f0f0] drop-shadow-sm drop-shadow-neutral-100 rounded-[10px] xl:rounded-[14px] 2xl:rounded-[16px] z-5 p-[5px]">
         <img src={search} alt="search icon" className="w-[22px] h-[22px] md:size-[18px] lg:size-[20px] xl:size-[22px] 2xl:size-[26px] ml-[5px]" />  
         <textarea
           inputMode="text"

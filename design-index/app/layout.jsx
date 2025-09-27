@@ -9,8 +9,8 @@ import sidebar_icon from "./assets/sidebar icon.png"
 import sidebar_close_icon from "./assets/sidebar close.png"
 import india from './assets/Indian flag.png';
 import heart from './assets/love.png';
-import twitter from './assets/XLogo.png'
-import linkedin from "./assets/LinkedinLogo.avif"
+import twitter from "./assets/x-logo.svg"
+import linkedin from "./assets/linkedin-logo.svg"
 import logo from "./assets/logo.avif"
 import threads from "./assets/threads-logo.svg"
 
@@ -189,10 +189,13 @@ const should_disable_scroll = disable_scroll.some(path =>
 
         {/* right content area*/}
         <div className="flex-col items-center justify-center w-full md:w-[87%] p-[5px] md:p-[5px] md:px-[20px] bg-white">
-          <div className="flex-row w-full hidden md:flex items-center pt-[5px]">
+          <div className="flex-row w-full hidden md:flex items-center pt-[5px] pb-[5px] gap-x-[7px]">
             <SearchBar />
-            <Link to='/terms' className="flex flex-row items-center justify-start w-auto font-Outfit font-semibold border-[1px] border-[#f0f0f0] drop-shadow-md drop-shadow-neutral-100 rounded-[10px] xl:rounded-[14px] 2xl:rounded-[16px] text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] px-[20px] ml-[10px] h-[36px] md:h-[30px] lg:h-[35px] xl:h-[40px] 2xl:h-[45px] opacity-70 hover:opacity-100 hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out">terms</Link>
-            <Link to='/about' className="flex flex-row items-center justify-start w-auto font-Outfit font-semibold border-[1px] border-[#f0f0f0] drop-shadow-md drop-shadow-neutral-100 rounded-[10px] xl:rounded-[14px] 2xl:rounded-[16px] text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] px-[20px] ml-[10px] h-[36px] md:h-[30px] lg:h-[35px] xl:h-[40px] 2xl:h-[45px] opacity-70 hover:opacity-100 hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out">about</Link>
+            <Link to='/terms' className="flex flex-row items-center justify-start w-auto font-Outfit font-semibold border-[1px] border-[#f0f0f0] drop-shadow-md drop-shadow-neutral-100 rounded-[10px] xl:rounded-[14px] 2xl:rounded-[16px] text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] px-[20px] h-[36px] md:h-[30px] lg:h-[35px] xl:h-[40px] 2xl:h-[45px] opacity-70 hover:opacity-100 hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out">terms</Link>
+            <Link to='/about' className="flex flex-row items-center justify-start w-auto font-Outfit font-semibold border-[1px] border-[#f0f0f0] drop-shadow-md drop-shadow-neutral-100 rounded-[10px] xl:rounded-[14px] 2xl:rounded-[16px] text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] px-[20px] h-[36px] md:h-[30px] lg:h-[35px] xl:h-[40px] 2xl:h-[45px] opacity-70 hover:opacity-100 hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out">about</Link>
+            <img src={twitter} loading="lazy" alt="X logo" className="w-[30px] h-[30px] md:w-[30px] md:h-[30px] lg:w-[32px] lg:h-[32px] xl:w-[35px] xl:h-[35px] 2xl:w-[40px] 2xl:h-[40px] p-[5px] drop-shadow-md drop-shadow-neutral-100 border-[0.5px] border-[#e2e2e2] rounded-[8px] hover:opacity-100 hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out" onClick={() => window.open("https://x.com/atharv_rem", "_blank")} />
+            <img src={threads} loading="lazy" alt="Threads logo" className="w-[30px] h-[30px] md:w-[30px] md:h-[30px] lg:w-[32px] lg:h-[32px] xl:w-[35px] xl:h-[35px] 2xl:w-[40px] 2xl:h-[40px] p-[5px] drop-shadow-md drop-shadow-neutral-100 border-[0.5px] border-[#e2e2e2] rounded-[8px] hover:opacity-100 hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out" onClick={() => window.open("https://www.threads.com/@atharv_remeshan", "_blank")} />
+            <img src={linkedin} loading="lazy" alt="LinkedIn logo" className="w-[30px] h-[30px] md:w-[30px] md:h-[30px] lg:w-[32px] lg:h-[32px] xl:w-[35px] xl:h-[35px] 2xl:w-[40px] 2xl:h-[40px] p-[5px] drop-shadow-md drop-shadow-neutral-100 border-[0.5px] border-[#e2e2e2] rounded-[8px] hover:opacity-100 hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out" onClick={() => window.open("https://www.linkedin.com/in/atharv-rem", "_blank")} />
           </div>
           
           {/* Mobile header */}
