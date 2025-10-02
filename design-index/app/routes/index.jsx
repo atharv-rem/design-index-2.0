@@ -1,3 +1,4 @@
+import threads from "../assets/threads-logo.svg"
 export const meta = () => [
   { title: "Design Index - Collection of the best design resources on the internet" },
   { name: "description", content: "Collection of the best design resources on the internet" },
@@ -48,15 +49,15 @@ export default function Homepage() {
           </p>
         </div>
 
-
-        <div className="w-full flex flex-col items-start justify-center text-left mt-[10px] sm:hidden ml-[10px]">
-          <p style={{fontFamily: "'Outfit', sans-serif", fontWeight: 500, fontSize: '20px', lineHeight: '1', color: '#4a4a4a', maxWidth: '900px', marginRight: '10px'}} >
+        {/* Tagline Section mobile*/}
+        <div className="w-full flex flex-col items-start justify-center text-left mt-[10px] ml-[10px] sm:hidden">
+          <p style={{fontFamily: "Outfit, sans-serif", fontWeight: 500, fontSize: '20px', lineHeight: '1', color: '#4a4a4a', maxWidth: '900px', marginRight: '10px'}} >
             internet's handpicked design resources, we don’t compromise on quality
           </p>
         </div>
 
-
-        <div className="hidden w-full sm:flex items-start flex-col justify-center mt-[10px] sm:ml-[10px] md:mt-[30px] xl:mt-[40px] 2xl:mt-[50px] sm:leading-7 xl:leading-8 sm:pr-[100px] lg:pr-[200px] xl:pr-[250px] 2xl:pr-[300px]">
+        {/* Tagline Section desktop*/}
+        <div className="hidden w-full sm:flex sm:ml-[10px] md:ml-0 items-start flex-col justify-center mt-[10px] md:mt-[30px] xl:mt-[40px] 2xl:mt-[50px] sm:leading-7 xl:leading-8 sm:pr-[100px] lg:pr-[200px] xl:pr-[250px] 2xl:pr-[300px]">
           <p className="flex flex-col sm:text-[25px] md:text-[25px] lg:text-[25px] xl:text-[30px] 2xl:text-[35px] font-medium font-Outfit text-[#4a4a4a]">
             <span>internet's handpicked design resources,</span> 
             <span>we don’t compromise on quality</span>
@@ -125,16 +126,8 @@ export default function Homepage() {
             </g>
           </g>
         </svg>
-      </a>
+        </a>
 
-      </div>
-
-
-      {/* 200+ tools Section */}
-      <div className="w-full flex flex-col items-center justify-center text-center bg-white z-4 overflow-hidden">
-        <div className='w-full md:w-[78vw] flex flex-row z-4'>
-          
-        </div>
       </div>
     </div>
     </>

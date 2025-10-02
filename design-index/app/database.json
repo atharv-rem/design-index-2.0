@@ -2182,10 +2182,10 @@
   {
     "primary_key": 219,
     "category": "font",
-    "tool_name": "PowerType",
+    "tool_name": "Power Type",
     "pricing": "paid",
     "website": "https://power-type.com/",
-    "description": "",
+    "description": "independent foundry creating high-quality fonts",
     "extended_description": "crafting top-quality fonts that not only possess visual appeal but also offer versatility and functionality.",
     "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/power%20type.avif"
   },
@@ -2205,8 +2205,8 @@
     "tool_name": "Supply",
     "pricing": "paid",
     "website": "https://supply.family/product-category/mockups/",
-    "description": "",
-    "extended_description": "Supply is a design resource platform that offers a wide range of high-quality mockups, templates, and design assets for creatives.",
+    "description": "premium mockups, fonts, and design assets",
+    "extended_description": "curated digital marketplace offering premium mockups, fonts, graphics, and creative assets for designers.",
     "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/supply.avif"
   },
   {
@@ -2215,8 +2215,8 @@
     "tool_name": "Supply",
     "pricing": "paid",
     "website": "https://supply.family/product-category/fonts/",
-    "description": "",
-    "extended_description": "Supply is a design resource platform that offers a wide range of high-quality fonts, templates, and design assets for creatives.",
+    "description": "premium mockups, fonts, and design assets",
+    "extended_description": "curated digital marketplace offering premium mockups, fonts, graphics, and creative assets for designers.",
     "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/supply.avif"
   },
   {
@@ -2225,8 +2225,8 @@
     "tool_name": "Mockuplab",
     "pricing": "paid",
     "website": "https://mockuplab.shop/",
-    "description": "",
-    "extended_description": "Supply is a design resource platform that offers a wide range of high-quality fonts, templates, and design assets for creatives.",
+    "description": "premium, high-quality Photoshop mockups",
+    "extended_description": "creative resource platform specializing in high-quality, realistic Photoshop mockups tailored for designers, brands, and agencies",
     "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/mockup%20lab.avif"
   },
   {
@@ -2235,8 +2235,8 @@
     "tool_name": "Super Color Palette",
     "pricing": "paid",
     "website": "https://supercolorpalette.com/",
-    "description": "",
-    "extended_description": "Supply is a design resource platform that offers a wide range of high-quality fonts, templates, and design assets for creatives.",
+    "description": "generate and export custom color palettes for free",
+    "extended_description": "generate, save, and export color palettes by shifting hue, saturation, lightness, and more",
     "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/supercolorpalettte.avif"
   },
   {
@@ -2245,8 +2245,8 @@
     "tool_name": "Mocku",
     "pricing": "free,paid",
     "website": "https://www.hellomocku.com/",
-    "description": "",
-    "extended_description": "Supply is a design resource platform that offers a wide range of high-quality fonts, templates, and design assets for creatives.",
+    "description": "handcrafted, realistic mockups for designers",
+    "extended_description": "handcrafted, realistic mockups—packaging, posters, apparel, and more—crafted by designers for designers.",
     "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/mocku.avif"
   },
   {
@@ -2348,5 +2348,35 @@
     "description": "create unique mesh gradients from your photos",
     "extended_description": "upload an image, and the tool will generate a gradient that can be downloaded or copied as CSS code for use in various design projects",
     "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/photogradient-1.avif"
+  },
+  {
+    "primary_key": 236,
+    "category": "mockup",
+    "tool_name": "Mocku",
+    "pricing": "paid",
+    "website": "https://mocku.co/",
+    "description": "Instantly create device and video mockups.",
+    "extended_description": "AI-powered tool to instantly convert screenshots or URLs into high-quality device mockups and video mockups",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/mocku2.avif"
+  },
+  {
+    "primary_key": 237,
+    "category": "mockup",
+    "tool_name": "Sedshop",
+    "pricing": "paid",
+    "website": "https://sedshop.co/",
+    "description": "premium, handcrafted PSD mockups for designers",
+    "extended_description": "premium, handcrafted PSD mockups—posters, screens, packaging, and more—for designers.",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/sedshop.avif"
+  },
+  {
+    "primary_key": 238,
+    "category": "mockup",
+    "tool_name": "Hardrender",
+    "pricing": "free,paid",
+    "website": "https://www.hardrender.app/",
+    "description": "create, preview, and export high quality mockups in seconds",
+    "extended_description": "browser-based mockup and visual storytelling tool for designers and teams. It allows you to create, preview, and export mockups",
+    "og_image_link": "https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/mockup%20cloud.avif"
   }
 ]
