@@ -35,11 +35,11 @@ export default function SearchSuggestions() {
           style={{boxShadow: "0 0 250px 0 #F2F2F2, 0 0 250px 0 #F2F2F2, 0 0 250px 0 #F2F2F2, 0 0 250px 0 #F2F2F2, 0 0 74.16px 0 #F2F2F2, 0 0 37.08px 0 #F2F2F2"}} 
           className='flex flex-col sm:hidden mt-[10px] border-[1px] border-[#e6e6e6] rounded-[20px] w-auto h-auto p-[10px] z-2'>
             <div className='flex flex-row justify-between items-center w-full px-[10px]'>
-              <p className="text-[20px] text-black font-Outfit font-medium">@toolfolio</p>
+              <p className="text-[15px] text-black font-Outfit font-medium">@toolfolio</p>
               <img src={x} alt="twitter logo" className="size-[20px]"/>
             </div>
             <div className='mt-[10px] justify-center items-center w-full px-[20px] mb-[20px]'>
-              <p className="text-[25px] text-black font-Outfit font-bold">"Search is awesome"</p>
+              <p className="text-[20px] text-black font-Outfit font-bold">"Search is awesome"</p>
             </div>
           </div>
         </div>

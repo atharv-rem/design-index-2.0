@@ -7,6 +7,7 @@ import {Link} from "react-router";
 function Cards(items){
     return(
         <>
+        {/* mobile view */}
         <div className="grid grid-cols-1 sm:hidden gap-[15px] items-start justify-center w-auto ml-[5px] mt-[10px] mr-[5px]">
             {items.map((item, index) => (
                 <Link
@@ -34,6 +35,7 @@ function Cards(items){
                 </Link>
             ))}
         </div>
+        {/* desktop view */}
         <div className="sm:pb-[100px] md:pb-[50px] hidden overflow-auto sm:grid sm:grid-cols-4 sm:gap-[28px] xl:gap-[38px] 2xl:gap-[45px] mt-[10px] w-full pt-[5px] px-[15px] md:px-[5px] hide-scrollbar items-start">
             {items.map((item, index) => (
                 <Link
@@ -44,7 +46,7 @@ function Cards(items){
                     alt={item.description.toLowerCase()}
                     loading='lazy'
                     src={item.og_image_link}
-                    className="rounded-t-[10px] lg:rounded-[20px] xl:rounded-[24px] w-full object-cover transition-transform duration-200 group-hover:scale-102 mb-[5px] relative aspect-[16/9]"/>
+                    className="rounded-t-[10px] lg:rounded-t-[20px] xl:rounded-t-[24px] w-full object-cover transition-transform duration-200 group-hover:scale-102 mb-[5px] relative aspect-[16/9]"/>
                     <div className='flex flex-col justify-start items-start mb-[10px] w-full h-full mt-[5px] px-[15px]'>
                         <div className="text-[14px] lg:text-[17px] xl:text-[19px] 2xl:text-[25px] text-black font-Outfit font-bold p-0 leading-4 xl:leading-5 mt-[5px] lg:mt-[8px] 2xl:mt-[15px]">{item.tool_name}</div>
 
@@ -81,12 +83,12 @@ export default function Searchresults() {
     //if no results are found or no keywords are entered, this will show a message to the user
     if (hasSearched && (results.length === 0 || keywords.length === 0)) {
         return (
-            <div className="flex flex-col items-center justify-center h-full">
+            <div className="flex flex-col items-center justify-center h-svh">
                 <span className="text-[20px] sm:text-[25px] md:text-[30px] lg:text-[35px] xl:text-[40px] 2xl:text-[45px] font-Outfit font-semibold text-black">No results found</span>
                 <span className="text-[16px] sm:text-[20px] md:text-[22px] lg:text-[28px] xl:text-[32px] 2xl:text-[36px] font-Outfit font-medium text-[#737373]">Try adjusting your search query and try again.</span>
-                <Link to="/submit-a-tool" className="mt-[10px] px-[10px] w-auto bg-white border-[1.5px] border-[#f0f0f0] md:rounded-[12px] lg:rounded-[17px] xl:rounded-[22px] 2xl:rounded-[27px] flex flex-row items-center justify-center opacity-100 md:opacity-70 md:hover:opacity-100 hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out">
+                <Link to="/submit-a-tool" className="mt-[10px] px-[10px] w-auto bg-white border-[1.5px] border-[#f0f0f0] rounded-[10px] md:rounded-[12px] lg:rounded-[17px] xl:rounded-[22px] 2xl:rounded-[27px] flex flex-row items-center justify-center opacity-100 md:opacity-70 md:hover:opacity-100 hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out">
                     <img src={send} alt="submit icon" className="size-[28px] xl:size-[35px] 2xl:size-[40px] p-[5px] mr-[2px]" />
-                    <span className="text-[15px] md:text-[20px] lg:text-[25px] xl:text-[30px] 2xl:text-[35px] font-Outfit font-semibold">submit a tool</span>
+                    <span className="text-[20px] md:text-[20px] lg:text-[25px] xl:text-[30px] 2xl:text-[35px] font-Outfit font-semibold">submit a tool</span>
                 </Link>
             </div>
         );
