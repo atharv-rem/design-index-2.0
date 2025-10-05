@@ -20,11 +20,20 @@ export default function Homepage() {
       {/* Hero Section */}
       <div className="flex flex-col items-start justify-center w-full h-[100dvh] bg-white sticky top-0">
         
-        <a href="https://peerlist.io/atharv_rem/project/design-index" target="_blank" rel="noopener noreferrer">
-          <div className="w-auto px-[10px] xl:px-[20px] py-[5px] border-[1px] border-[#e2e2e2] shadow-sm rounded-[13px] sm:rounded-[16px] xl:rounded-[22px] cursor-pointer hover:translate-y-[-5px] transition-transform duration-300 ml-[10px] md:ml-0">
-            <p className="text-center text-[15px] sm:text-[18px] lg:text-[25px] xl:text-[30px] font-Outfit font-medium text-black">#18 on <strong className="text-[#00aa45]">Peerlist</strong></p>
-          </div>
-        </a>
+        <div className="flex flex-row items-center justify-start">
+          <a href="https://peerlist.io/atharv_rem/project/design-index" target="_blank" rel="noopener noreferrer">
+            <div className="w-auto px-[10px] xl:px-[20px] py-[5px] border-[1px] border-[#e2e2e2] shadow-sm rounded-[13px] sm:rounded-[16px] xl:rounded-[22px] cursor-pointer hover:translate-y-[-5px] transition-transform duration-300 ml-[10px] md:ml-0">
+              <p className="text-center text-[15px] sm:text-[18px] lg:text-[25px] xl:text-[30px] font-Outfit font-medium text-black">#18 on <strong className="text-[#00aa45]">Peerlist</strong></p>
+            </div>
+          </a>
+          <a href="https://openhunts.com/projects/design-index" target="_blank" title="OpenHunts Top 2 Daily Winner" className="ml-[20px] cursor-pointer hover:translate-y-[-5px] transition-transform duration-300">
+            <img 
+              src="https://openhunts.com/images/badges/top2-light.png" 
+              alt="OpenHunts Top 2 Daily Winner" 
+              className="w-auto h-[35px] sm:h-[40px] lg:h-[45px] xl:h-[50px] 2xl:h-[55px]" 
+            />
+          </a>
+        </div>
 
         {/* Desktop Version */}
         <div className="hidden w-full md:flex flex-col items-start">
