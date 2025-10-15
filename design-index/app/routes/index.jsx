@@ -36,10 +36,18 @@ export default function Homepage() {
           <a href="https://twelve.tools" target="_blank" className="hidden sm:block ml-[20px] cursor-pointer hover:translate-y-[-5px] transition-transform duration-300" rel="noopener noreferrer">
             <img src="https://twelve.tools/badge0-white.svg" alt="Featured on Twelve Tools" className="w-auto h-[35px] sm:h-[40px] lg:h-[45px] xl:h-[50px] 2xl:h-[55px]" />
           </a>
+          <a href="https://toolfame.com/item/design-index" target="_blank" className="hidden sm:block ml-[10px] cursor-pointer hover:translate-y-[-5px] transition-transform duration-300" rel="noopener noreferrer">
+            <img src="https://toolfame.com/badge-light.svg" className="w-auto h-[35px] sm:h-[40px] lg:h-[45px] xl:h-[50px] 2xl:h-[55px]" alt="Featured on toolfame.com" />
+          </a>
         </div>
-        <a href="https://twelve.tools" target="_blank" className="block sm:hidden ml-[10px] mt-[10px] cursor-pointer hover:translate-y-[-5px] transition-transform duration-300" rel="noopener noreferrer">
+        <div className="flex flex-row items-center justify-start sm:hidden">
+        <a href="https://twelve.tools" target="_blank" className="ml-[10px] mt-[10px] cursor-pointer hover:translate-y-[-5px] transition-transform duration-300" rel="noopener noreferrer">
             <img src="https://twelve.tools/badge0-white.svg" alt="Featured on Twelve Tools" className="w-auto h-[35px] sm:h-[40px] lg:h-[45px] xl:h-[50px] 2xl:h-[55px]" />
         </a>
+        <a href="https://toolfame.com/item/design-index" target="_blank" className="ml-[10px] mt-[10px] cursor-pointer hover:translate-y-[-5px] transition-transform duration-300" rel="noopener noreferrer">
+            <img src="https://toolfame.com/badge-light.svg" className="w-auto h-[35px] sm:h-[40px] lg:h-[45px] xl:h-[50px] 2xl:h-[55px]" alt="Featured on toolfame.com" />
+        </a>
+        </div>
 
         {/* Desktop Version */}
         <div className="hidden w-full md:flex flex-col items-start">
