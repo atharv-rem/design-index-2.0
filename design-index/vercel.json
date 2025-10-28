@@ -1,14 +1,11 @@
 {
-  "builds": [
-    { "src": "api/*.go", "use": "@vercel/go" },
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "build" }
+  "functions": {
+    "api/*.go": {
+      "runtime": "vercel-go@1.0.0"
     }
-  ],
+  },
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/feature_tool.go" },
-    { "src": "/(.*)", "dest": "/build/$1" }
+    { "src": "/(.*)", "dest": "/" }
   ]
 }
