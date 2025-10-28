@@ -3,11 +3,6 @@
   "framework": "react-router",
   "buildCommand": "react-router build",
   "outputDirectory": "build/client",
-  "functions": {
-    "api/*.go": {
-      "runtime": "go1.x"
-    }
-  },
   "routes": [
     {
       "src": "/api/(.*)",
