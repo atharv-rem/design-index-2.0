@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/featured.go": {
+    "api/feature_tool.go": {
       "runtime": "@vercel/go"
     }
   },
