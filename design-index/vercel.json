@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/featured.go": {
+      "runtime": "go1.x"
+    }
+  },
+  "routes": [
+    { "src": "/api/feature_tool", "dest": "/api/feature_tool.go" }
+  ]
+}
