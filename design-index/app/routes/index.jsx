@@ -1,5 +1,5 @@
-import { useEffect,useState } from "react";
-import { Link } from "react-router";
+import FeaturedTool from "../components/featured_tool";
+import useGlobalStore from "../zustand-global-storage.js"
 
 export const meta = () => [
   { title: "Design Index - Collection of the best design resources on the internet" },
@@ -17,24 +17,7 @@ export const meta = () => [
 
 
 export default function Homepage() {
-  const [tool, setTool] = useState(null);
-  const [error, setError] = useState(null);
-  useEffect(() => {
-    async function fetchTool() {
-      try {
-        const res = await fetch("http://localhost:8080/api/featured");
-        if (!res.ok) throw new Error("Failed to fetch featured tool");
-        const data = await res.json();
-        setTool(data);
-      } catch (err) {
-        console.error(err);
-        setError("Could not load featured tool.");
-      }
-    }
-
-    fetchTool();
-  }, []);
-
+  const setSidebar = useGlobalStore((state) => state.setSidebar);
   return (
     <>
     <div className="flex flex-col items-center justify-center w-full h-auto bg-white">
@@ -79,33 +62,13 @@ export default function Homepage() {
             <span>we don’t compromise on quality</span>
           </p>
         </div>
-           
 
-        <div className="flex flex-col sm:flex-row mt-[30px] w-full h-auto px-[20px] md:px-[10px]">
-          <Link to={`/tool/${tool?.tool_name.toLowerCase()}`} target="_blank" rel="noopener noreferrer" className="flex flex-row relative rounded-[15px] shadow-sm border-[1px] border-[#e2e2e2] w-auto xs:w-[380px] h-auto sm:w-[350px] md:w-[400px] xl:w-[450px] xl:h-[150px] 2xl:w-[540px] 2xl:h-[180px] p-[5px] xl:p-[8px] ">
-            <div className="w-auto h-auto px-[5px] py-[2px] border-[2px] border-white font-Outfit font-semibold text-[12px] xl:text-[14px] 2xl:text-[16px] text-white rounded-[8px] absolute -top-[10px] -left-[10px] bg-[black] z-5 shadow-lg ">
-              #Featured
-            </div>
-            <img src={tool?.og_image_link} alt={tool?.tool_name} className="w-[180px] h-[100px] sm:w-[200px] sm:h-[120px] xl:w-[250px] xl:h-auto 2xl:w-[300px] rounded-[10px] flex-shrink-0" />
-            <div className="flex flex-col mx-[10px] justify-center items-start">
-              <p className="text-[20px] sm:text-[22px] xl:text-[24px] 2xl:text-[28px] font-Outfit font-bold text-black">{tool?.tool_name}</p>
-              <p className="text-[15px] sm:text-[17px] xl:text-[19px] 2xl:text-[21px] font-Outfit font-semibold text-[#818181] leading-[15px] xl:leading-[18px] 2xl:leading-[20px]">{tool?.description}</p>
-            </div>
-          </Link>
-          <Link to="https://pplx.ai/atharvrem" target="_blank" rel="noopener noreferrer" className="flex flex-row relative rounded-[15px] shadow-sm border-[1px] border-[#e2e2e2] w-auto h-auto xs:w-[380px] sm:w-[350px] md:w-[400px] xl:w-[500px] xl:h-[150px] 2xl:w-[600px] 2xl:h-[180px] p-[5px] xl:p-[8px] mt-[20px] sm:mt-0 sm:ml-[20px]">
-              <div className="w-auto h-auto px-[5px] py-[2px] border-[2px] border-white font-Outfit font-semibold text-[12px] xl:text-[14px] 2xl:text-[16px] text-white rounded-[8px] absolute -top-[10px] -left-[10px] bg-[black] z-5 shadow-lg">
-                #AD
-              </div>
-              <img src="https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/ad.png" alt="Threads Logo" className="w-[180px] h-[100px] sm:w-[200px] sm:h-[120px] xl:w-[250px] xl:h-auto 2xl:w-[300px] rounded-[10px] flex-shrink-0" />
-              <div className="flex flex-col mx-[20px] justify-center items-center">
-                <p className="text-[15px] xs:text-[20px] xl:text-[25px] 2xl:text-[30px] font-Outfit font-bold text-black leading-[20px] xl:leading-[25px] 2xl:leading-[30px] flex flex-col">
-                  <span>free 1 month of</span>
-                  <span>perplexity pro</span>
-                </p>
-              </div>
-          </Link>
+        <div onClick={() => setSidebar(true)} className="block md:hidden w-auto h-auto bg-black text-white mt-[30px] ml-[10px] rounded-[17px] px-[20px] py-[5px] font-Outfit font-bold text-[20px] shadow-md">
+          Explore
         </div>
 
+        <FeaturedTool />
+      
       </div>
 
       {/* Featured On Section */}
