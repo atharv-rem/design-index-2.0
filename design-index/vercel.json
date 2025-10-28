@@ -1,9 +1,21 @@
 {
-  "builds": [
-    { "src": "api/*.go", "use": "@vercel/go" }
-  ],
+  "version": 2,
+  "framework": "react-router",
+  "buildCommand": "react-router build",
+  "outputDirectory": "build/client",
+  "functions": {
+    "api/*.go": {
+      "runtime": "go1.x"
+    }
+  },
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/feature_tool.go" },
-    { "src": "/(.*)", "dest": "/" }
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
   ]
 }
