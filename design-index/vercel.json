@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/featured.go": {
-      "runtime": "go1.x"
+      "runtime": "@vercel/go"
     }
   },
   "routes": [
