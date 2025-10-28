@@ -14,7 +14,7 @@ export default function FeaturedTool() {
   
   return(
   <div className="flex flex-col sm:flex-row mt-[30px] w-full h-auto px-[20px] md:px-[10px]">
-          <a href={`/tool/${featured?.tool_name.toLowerCase()}`} target="_blank" rel="noopener noreferrer" className="flex flex-row relative rounded-[15px] shadow-sm border-[1px] border-[#e2e2e2] w-auto xs:w-[380px] h-auto sm:w-[350px] md:w-[400px] xl:w-[450px] xl:h-[150px] 2xl:w-[540px] 2xl:h-[180px] p-[5px] xl:p-[8px] ">
+          <a href={`/tool/${featured?.tool_name.toLowerCase()}`} target="_blank" rel="noopener noreferrer" className="flex flex-row relative rounded-[15px] shadow-sm border-[1px] border-[#e2e2e2] w-auto xs:w-[380px] h-auto sm:w-[350px] md:w-[400px] xl:w-[450px] xl:h-[150px] 2xl:w-[540px] 2xl:h-[180px] p-[5px] xl:p-[8px] hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out ">
             <div className="w-auto h-auto px-[5px] py-[2px] border-[2px] border-white font-Outfit font-semibold text-[12px] xl:text-[14px] 2xl:text-[16px] text-white rounded-[8px] absolute -top-[10px] -left-[10px] bg-[black] z-5 shadow-lg ">
               #Featured
             </div>
@@ -24,7 +24,7 @@ export default function FeaturedTool() {
               <p className="text-[15px] sm:text-[17px] xl:text-[19px] 2xl:text-[21px] font-Outfit font-semibold text-[#818181] leading-[15px] xl:leading-[18px] 2xl:leading-[20px]">{featured?.description}</p>
             </div>
           </a>
-          <a href="https://pplx.ai/atharvrem" target="_blank" rel="noopener noreferrer" className="flex flex-row relative rounded-[15px] shadow-sm border-[1px] border-[#e2e2e2] w-auto h-auto xs:w-[380px] sm:w-[350px] md:w-[400px] xl:w-[500px] xl:h-[150px] 2xl:w-[600px] 2xl:h-[180px] p-[5px] xl:p-[8px] mt-[20px] sm:mt-0 sm:ml-[20px]">
+          <a href="https://pplx.ai/atharvrem" target="_blank" rel="noopener noreferrer" className="flex flex-row relative rounded-[15px] shadow-sm border-[1px] border-[#e2e2e2] w-auto h-auto xs:w-[380px] sm:w-[350px] md:w-[400px] xl:w-[500px] xl:h-[150px] 2xl:w-[600px] 2xl:h-[180px] p-[5px] xl:p-[8px] mt-[20px] sm:mt-0 sm:ml-[20px] hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out">
               <div className="w-auto h-auto px-[5px] py-[2px] border-[2px] border-white font-Outfit font-semibold text-[12px] xl:text-[14px] 2xl:text-[16px] text-white rounded-[8px] absolute -top-[10px] -left-[10px] bg-[black] z-5 shadow-lg">
                 #AD
               </div>

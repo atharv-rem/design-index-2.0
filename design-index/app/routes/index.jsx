@@ -20,7 +20,7 @@ export default function Homepage() {
   const setSidebar = useGlobalStore((state) => state.setSidebar);
   return (
     <>
-    <div className="flex flex-col items-center justify-center w-full h-auto bg-white">
+    <div className="flex flex-col items-start justify-start w-full h-auto bg-white">
       {/* Hero Section */}
       <div className="flex flex-col items-start justify-center w-full h-[100dvh] bg-white">
         
@@ -63,7 +63,7 @@ export default function Homepage() {
           </p>
         </div>
 
-        <div onClick={() => setSidebar(true)} className="block md:hidden w-auto h-auto bg-black text-white mt-[30px] ml-[10px] rounded-[17px] px-[20px] py-[5px] font-Outfit font-bold text-[20px] shadow-md">
+        <div onClick={() => setSidebar(true)} className="block md:hidden w-auto h-auto bg-black text-white mt-[30px] ml-[10px] rounded-[17px] px-[20px] py-[5px] font-Outfit font-bold text-[20px] shadow-md hover:cursor-pointer hover:translate-y-[-2px] transition-all duration-200 ease-in-out">
           Explore
         </div>
 
@@ -72,7 +72,7 @@ export default function Homepage() {
       </div>
 
       {/* Featured On Section */}
-      <div className="flex flex-col items-start justify-center mt-[20px] mb-[100px] w-full h-auto ml-[20px]">
+      <div className="flex flex-col items-start justify-start mt-[20px] mb-[100px] w-auto h-auto ml-[20px] md:ml-0">
         <p className="text-[40px] font-CalSans ">
           Featured on 
         </p>
