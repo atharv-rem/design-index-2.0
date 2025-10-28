@@ -33,7 +33,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 
 	// Load database.json if not already loaded
 	if len(tools) == 0 {
-		data, err := os.ReadFile("design-index/app/database.json")
+		data, err := os.ReadFile("./app/database.json")
 		if err != nil {
 			http.Error(w, `{"error":"failed to read database.json"}`, http.StatusInternalServerError)
 			return
