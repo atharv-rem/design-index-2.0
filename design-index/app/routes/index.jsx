@@ -159,6 +159,9 @@ export default function Homepage() {
               className="w-auto h-[35px] sm:h-[40px] lg:h-[45px] xl:h-[50px] 2xl:h-[55px]" 
             />
           </a>
+          <a href="https://alterbase.co/tool/design-index" target="_blank" className="cursor-pointer hover:translate-y-[-5px] transition-transform duration-300">
+            <img src="https://alterbase.co/api/badge?slug=design-index&theme=light" alt="Featured on AlterBase" className="w-auto h-[35px] sm:h-[40px] lg:h-[45px] xl:h-[50px] 2xl:h-[55px]" />
+          </a>
         </div>
       </div>
       <div className="w-full h-auto bg-white flex flex-col items-center justify-center mb-[20px] mt-[50px]">
