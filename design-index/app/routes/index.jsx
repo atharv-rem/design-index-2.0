@@ -89,61 +89,61 @@ export default function Homepage() {
           rel="noopener noreferrer"
           className="block w-[200px] h-[45px] xl:w-[280px] xl:h-[60px] 2xl:w-[300px] 2xl:h-[70px] hover:scale-105 transition-transform duration-300 "
         >
-        <svg 
-          width="auto" 
-          height="auto" 
-          viewBox="0 0 250 54" 
-          xmlns="http://www.w3.org/2000/svg" 
-          aria-label="Leave a review on Product Hunt"
-          className="rounded-[18px] xl:rounded-[22px] 2xl:rounded-[28px] border-[1px] border-[#ededed] shadow-sm"
-        >
-          <g fill="none" fillRule="evenodd">
-            <rect 
-              x="0.5" 
-              y="0.5" 
-              width="249" 
-              height="53" 
-              rx="10" 
-              className="fill-white" 
-            />
-            
-            <text 
-              x="53" 
-              y="20" 
-              fontFamily="Outfit" 
-              fontSize="9" 
-              fontWeight="bold" 
-              className="fill-black"
-            >
-              LEAVE A REVIEW ON
-            </text>
-
-            <text 
-              x="52" 
-              y="40" 
-              fontFamily="Outfit" 
-              fontSize="16" 
-              fontWeight="bold" 
-              className="fill-black"
-            >
-              Product Hunt
-            </text>
-
-            {/* Star icon */}
-            <g transform="translate(205, 11) scale(1.4)" className="fill-black">
-              <path d="M23.04,9.021L14.77,8.796L12,1L9.23,8.796L0.96,9.021l6.559,5.043L5.177,22L12,17.321L18.823,22l-2.342-7.935L23.04,9.021z M12,14.896l-3.312,2.271l1.137-3.851l-3.183-2.448l4.014-0.109L12,6.974l1.344,3.784l4.014,0.109l-3.183,2.448l1.137,3.851 L12,14.896z"/>
-            </g>
-
-            {/* PH logo */}
-            <g transform="translate(11, 12)">
-              <circle r="15.5" cx="15.5" cy="15.5" className="fill-white stroke-1 stroke-[#dddddd]"/>
-              <path 
-                d="M17.4329412,15.9558824 L17.4329412,15.9560115 L13.0929412,15.9560115 L13.0929412,11.3060115 L17.4329412,11.3060115 L17.4329412,11.3058824 C18.7018806,11.3058824 19.7305882,12.3468365 19.7305882,13.6308824 C19.7305882,14.9149282 18.7018806,15.9558824 17.4329412,15.9558824 M17.4329412,8.20588235 L17.4329412,8.20601152 L10.0294118,8.20588235 L10.0294118,23.7058824 L13.0929412,23.7058824 L13.0929412,19.0560115 L17.4329412,19.0560115 L17.4329412,19.0558824 C20.3938424,19.0558824 22.7941176,16.6270324 22.7941176,13.6308824 C22.7941176,10.6347324 20.3938424,8.20588235 17.4329412,8.20588235" 
-                className="fill-black"
+          <svg 
+            width="auto" 
+            height="auto" 
+            viewBox="0 0 250 54" 
+            xmlns="http://www.w3.org/2000/svg" 
+            aria-label="Leave a review on Product Hunt"
+            className="rounded-[18px] xl:rounded-[22px] 2xl:rounded-[28px] border-[1px] border-[#ededed] shadow-sm"
+          >
+            <g fill="none" fillRule="evenodd">
+              <rect 
+                x="0.5" 
+                y="0.5" 
+                width="249" 
+                height="53" 
+                rx="10" 
+                className="fill-white" 
               />
+              
+              <text 
+                x="53" 
+                y="20" 
+                fontFamily="Outfit" 
+                fontSize="9" 
+                fontWeight="bold" 
+                className="fill-black"
+              >
+                LEAVE A REVIEW ON
+              </text>
+
+              <text 
+                x="52" 
+                y="40" 
+                fontFamily="Outfit" 
+                fontSize="16" 
+                fontWeight="bold" 
+                className="fill-black"
+              >
+                Product Hunt
+              </text>
+
+              {/* Star icon */}
+              <g transform="translate(205, 11) scale(1.4)" className="fill-black">
+                <path d="M23.04,9.021L14.77,8.796L12,1L9.23,8.796L0.96,9.021l6.559,5.043L5.177,22L12,17.321L18.823,22l-2.342-7.935L23.04,9.021z M12,14.896l-3.312,2.271l1.137-3.851l-3.183-2.448l4.014-0.109L12,6.974l1.344,3.784l4.014,0.109l-3.183,2.448l1.137,3.851 L12,14.896z"/>
+              </g>
+
+              {/* PH logo */}
+              <g transform="translate(11, 12)">
+                <circle r="15.5" cx="15.5" cy="15.5" className="fill-white stroke-1 stroke-[#dddddd]"/>
+                <path 
+                  d="M17.4329412,15.9558824 L17.4329412,15.9560115 L13.0929412,15.9560115 L13.0929412,11.3060115 L17.4329412,11.3060115 L17.4329412,11.3058824 C18.7018806,11.3058824 19.7305882,12.3468365 19.7305882,13.6308824 C19.7305882,14.9149282 18.7018806,15.9558824 17.4329412,15.9558824 M17.4329412,8.20588235 L17.4329412,8.20601152 L10.0294118,8.20588235 L10.0294118,23.7058824 L13.0929412,23.7058824 L13.0929412,19.0560115 L17.4329412,19.0560115 L17.4329412,19.0558824 C20.3938424,19.0558824 22.7941176,16.6270324 22.7941176,13.6308824 C22.7941176,10.6347324 20.3938424,8.20588235 17.4329412,8.20588235" 
+                  className="fill-black"
+                />
+              </g>
             </g>
-          </g>
-        </svg>
+            </svg>
           </a>
           <a href="https://peerlist.io/atharv_rem/project/design-index" target="_blank" rel="noreferrer">
             <img
@@ -161,6 +161,19 @@ export default function Homepage() {
           </a>
           <a href="https://alterbase.co/tool/design-index" target="_blank" className="cursor-pointer hover:translate-y-[-5px] transition-transform duration-300">
             <img src="https://alterbase.co/api/badge?slug=design-index&theme=light" alt="Featured on AlterBase" className="w-auto h-[35px] sm:h-[40px] lg:h-[45px] xl:h-[50px] 2xl:h-[55px]" />
+          </a>
+          <a href="https://ufind.best/products/design-index?utm_source=design-index" target="_blank" rel="noopener" className="cursor-pointer hover:translate-y-[-5px] transition-transform duration-300">
+            <img src="https://ufind.best/badges/ufind-best-badge-light.svg" alt="Featured on ufind.best" className="w-auto h-[35px] sm:h-[40px] lg:h-[45px] xl:h-[50px] 2xl:h-[55px]" />
+          </a>
+          <a href="https://findly.tools/design-index?utm_source=design-index" target="_blank" className="cursor-pointer hover:translate-y-[-5px] transition-transform duration-300">
+            <img 
+              src="https://findly.tools/badges/findly-tools-badge-light.svg" 
+              alt="Featured on findly.tools" 
+              className="w-auto h-[35px] sm:h-[40px] lg:h-[45px] xl:h-[50px] 2xl:h-[55px]"
+            />
+          </a>
+          <a href="https://startupfa.me/s/design-index?utm_source=designindex.xyz" target="_blank" className="cursor-pointer hover:translate-y-[-5px] transition-transform duration-300">
+            <img src="https://startupfa.me/badges/featured-badge.webp" alt="Design Index - Featured on Startup Fame" className="w-auto h-[35px] sm:h-[40px] lg:h-[45px] xl:h-[50px] 2xl:h-[55px]" />
           </a>
         </div>
       </div>
