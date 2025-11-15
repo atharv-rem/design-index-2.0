@@ -31,7 +31,7 @@ export default function FeaturedTool() {
               <div className="flex flex-col mx-[20px] justify-center items-center">
                 <p className="text-[15px] xs:text-[20px] xl:text-[25px] 2xl:text-[30px] font-Outfit font-bold text-black leading-[20px] xl:leading-[25px] 2xl:leading-[30px] flex flex-col">
                   <span>Cal.com - </span>
-                  <span>better way to schedule meetings</span>
+                  <span>20% discount on paid plans</span>
                 </p>
               </div>
           </a>
