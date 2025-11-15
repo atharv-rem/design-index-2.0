@@ -27,7 +27,7 @@ export default function FeaturedTool() {
               <div className="w-auto h-auto px-[5px] py-[2px] border-[2px] border-white font-Outfit font-semibold text-[12px] xl:text-[14px] 2xl:text-[16px] text-white rounded-[8px] absolute -top-[10px] -left-[10px] bg-[black] z-5 shadow-lg">
                 #AD
               </div>
-              <img src="https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/ad.avif" alt="ad for cal.com" className="w-[180px] h-[100px] sm:w-[200px] sm:h-[130px] xl:w-[250px] xl:h-auto 2xl:w-[300px] rounded-[10px] flex-shrink-0" />
+              <img src="https://pub-c51f3dea40b34c5f8f4cd14637f22cdc.r2.dev/cal.com.avif" alt="ad for cal.com" className="w-[180px] h-[100px] sm:w-[200px] sm:h-[130px] xl:w-[250px] xl:h-auto 2xl:w-[300px] rounded-[10px] flex-shrink-0" />
               <div className="flex flex-col mx-[20px] justify-center items-center">
                 <p className="text-[15px] xs:text-[20px] xl:text-[25px] 2xl:text-[30px] font-Outfit font-bold text-black leading-[20px] xl:leading-[25px] 2xl:leading-[30px] flex flex-col">
                   <span>Cal.com - </span>
